@@ -10,8 +10,20 @@ public class Family extends AnimalClass{
         familyName = famName_p;
 
         switch(familyName){
-            case("test"):
-
+            case("Struthionidae"):
+                familyTrait = "Ostritches are here";
+                break;
+            case("Rhincodontidae"):
+                familyTrait = "whale sharks??";
+                break;
+            case("Alligatoridae"):
+                familyTrait = "in florida";
+                break;
+            case("Hominidae"):
+                familyTrait = "hoomans are in here";
+                break;
+            case ("Bovidae"):
+                familyTrait = "cows belong here";
                 break;
             default:
                 familyTrait = "that family isn't in the code :(";

@@ -9,22 +9,20 @@ public class Subphyla extends Phyla{
         subphylaName = sPhyName_p;
 
         switch(subphylaName){
-            case("chelicerata"){
-
+            case "chelicerata":
+                subphylaTrait = "subdivision of arthropoda";
                 break;
-            }
-            case("crustacea"){
-                
+            case "crustacea":
+                subphylaTrait = "crustaceans";
                 break;
-            }
-            case("myriapoda"){
-                
+            case "myriapoda":
+                subphylaTrait = "millipedes, centipedes, etc.";
                 break;
-            }
-            case("vertebrata"){
-                
+            case "vertebrata":
+                subphylaTrait = "vertebrates";
                 break;
-            }
+            default:
+                subphylaTrait = "sorry that phyla is not in the code";
         }
     }
 

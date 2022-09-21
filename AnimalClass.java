@@ -11,66 +11,66 @@ public class AnimalClass extends Subphyla{
         switch(className){
             //invertebrates
             case "horseshoe crabs" :
-
+                classTrait = "crabs that are horsehoes";
                 break;
-            }
+            
             case "spiders, scorpions" :
-                
+                classTrait = "creepy crawlies";
                 break;
-            }
+            
             case "crabs, lobsters, shrimp" :
-                
+                classTrait = "yummy";
                 break;
-            }
+            
             case "barnacles" :
-                
+                classTrait = "they like stick to the side of ships or smth";
                 break;
-            }
+            
             case "insects" :
-                
+                classTrait = "icky";
                 break;
-            }
+            
             case "centipedes" :
-                
+                classTrait = "ewwwww";
                 break;
-            }
+            
             case "millipede" :
-                
+                classTrait = "ewwwwwwwwwwwwwwwww";
                 break;
-            }
+            
             //vertebrates
             case "amphibia" :
-                
+                classTrait = "both water and land?";
                 break;
-            }
+            
             case "reptilia" :
-                
+                classTrait = "reptiles";
                 break;
-            }
+            
             case "aves" :
-                
+                classTrait = "birds";
                 break;
-            }
+            
             case "mammalia" :
-                
+                classTrait = "mammals";
                 break;
-            }
+            
             case "osteichthyes" :
                 classTrait = "bony fish";
                 break;
-            }
+            
             case "chondrichthyes" :
                 classTrait = "cartilaginous fish";
                 break;
-            }
-            case "lampreys" :
             
+            case "lampreys" :
+                classTrait = "idk what these are";
                 break;
-            }
+            
             case "hagfish" :
-
+                classTrait = "i want to go home";
                 break;
-            }
+            
             default:
                 classTrait = "that class isn't in the code :(";
                 break;
