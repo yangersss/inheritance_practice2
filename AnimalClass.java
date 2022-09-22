@@ -64,11 +64,11 @@ public class AnimalClass extends Subphyla{
                 break;
             
             case "lampreys" :
-                classTrait = "idk what these are";
+                classTrait = "jawless fish";
                 break;
             
             case "hagfish" :
-                classTrait = "i want to go home";
+                classTrait = "eel shaped slime producing fish";
                 break;
             
             default:
